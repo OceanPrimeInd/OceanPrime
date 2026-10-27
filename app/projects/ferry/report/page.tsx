@@ -6,7 +6,7 @@ import { ArrowRight, Download, FileText } from "lucide-react";
 import { submitReportDownload } from "app/actions/submitReportDownload";
 import CookieBanner from "app/components/CookieBanner";
 
-const PDF_PATH = "/2026-10-26_OceanJet_Research_Report_Final.pdf";
+const PDF_PATH = "/2026-10-27_OceanJet_Research_Report.pdf";
 
 export default function FerryReportPage() {
   const [name, setName] = useState("");
@@ -252,7 +252,7 @@ function DownloadSuccess() {
       </p>
       <a
         href={PDF_PATH}
-        download="2026-10-26_OceanJet_Research_Report_Final.pdf"
+        download="2026-10-27_OceanJet_Research_Report.pdf"
         className="inline-flex items-center gap-2 rounded-xl bg-blue-900 text-white font-semibold px-8 py-4 text-base hover:bg-blue-800 transition"
       >
         <Download size={18} /> Download the updated research report
